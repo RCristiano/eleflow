@@ -24,10 +24,10 @@ R:
 * [ ] full outer join
 * [ ] right join
 
-R:
+R: Em termos de performance o cross join é o menos recomendado pois executa uma comparação NxN
 
 ## 3 - DADOS
 
 ### Qual a diferença entre um dado estruturado e um dado não-estruturado? Como você armazenaria cada um deles? (liste mais de uma opção para cada tipo de dado).
 
-R:
+R: Dados estruturados são organizado de forma rigida com estruturas previamente definidas e planejadas para o armazenamento enquanto dados não estruturados são flexiveis e podem ter os dados
