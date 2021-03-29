@@ -5,14 +5,15 @@
 ### Quais das ferramentas listadas ao lado você utilizaria para fazer a migração de um banco de dados Oracle on premises para um Azure SQL DB? Leve em consideração que você só possui acesso de leitura no servidor Oracle on premises. Explique brevemente quais as ferramentas e passos necessários para essa migração.
 
 * [ ] Databricks
-* [ ] Data Factory
+* [X] Data Factory
 * [ ] SQL Server Migration Assistant (SSMA)
 * [ ] Dataflow
 * [ ] Event Hubs
 
-R:
+R: O SSMA poderia ser usado se o servidor Oracle possui-se acesso de escrita, porém sem o acesso o Data Factory é mais interessante pois
 
 > fontes: https://docs.microsoft.com/en-us/sql/ssma/oracle/migrating-oracle-data-into-sql-server-oracletosql?view=azuresqldb-current
+https://docs.microsoft.com/en-us/azure/data-factory/connector-oracle
 
 ## 2 - SQL
 
