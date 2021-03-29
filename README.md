@@ -10,7 +10,7 @@
 * [ ] Dataflow
 * [ ] Event Hubs
 
-R: O SSMA poderia ser usado se o servidor Oracle possui-se acesso de escrita porque precisa de acesso para instalação de extensões, porém sem o acesso o Data Factory é mais interessante, pois não necessita do acesso de escrita e possibilita cópia paralela entre os databases.
+R: O SSMA poderia ser usado se o servidor Oracle possuir acesso de escrita, porém sem o acesso o Data Factory é mais interessante, pois não necessita do acesso de escrita e possibilita cópia paralela entre os databases
 
 > fontes: https://docs.microsoft.com/en-us/sql/ssma/oracle/migrating-oracle-data-into-sql-server-oracletosql?view=azuresqldb-current
 https://docs.microsoft.com/en-us/azure/data-factory/connector-oracle
@@ -31,4 +31,4 @@ R: Em termos de performance o cross join é o menos recomendado pois executa uma
 
 ### Qual a diferença entre um dado estruturado e um dado não-estruturado? Como você armazenaria cada um deles? (liste mais de uma opção para cada tipo de dado).
 
-R: Dados estruturados são organizado de forma rígida com estruturas previamente definidas e planejadas para o armazenamento, enquanto dados não estruturados são flexíveis e não dependem de uma estrutura rígida ou predefinida, dados estruturados podem ser armazenados em SGDBs como PostgreSQL, MYSQL ou SQL Server, porém dados não estruturados podem ser armazenados em Object Storages como HDFS e o Azure Blob Storage. Existem ainda os dados semi estruturados que possuem estruturas dinâmicas ou esquemas predefinidos porém flexíveis que podem ser armazenados como dados não estruturados ou  em sistemas como MongoDB, ElasticSearch ou o Azure CosmosDB sendo estes bancos de dados não relacionais também conhecidos pela sigla NoSQL.
+R: Dados estruturados são organizados de forma rígida com estruturas previamente definidas e planejadas para o armazenamento, enquanto dados não estruturados são flexíveis e não dependem de uma estrutura rígida ou predefinida, dados estruturados podem ser armazenados em SGDBs como PostgreSQL, MYSQL ou SQL Server, porém dados não estruturados podem ser armazenados em Object Storages como HDFS e o Azure Blob Storage. Existem ainda os dados semi estruturados que possuem estruturas dinâmicas ou esquemas predefinidos, porém flexíveis que podem ser armazenados como dados não estruturados ou  em sistemas como MongoDB, ElasticSearch ou o Azure CosmosDB sendo estes bancos de dados não relacionais também conhecidos pela sigla NoSQL.
