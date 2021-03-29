@@ -10,7 +10,7 @@
 * [ ] Dataflow
 * [ ] Event Hubs
 
-R: O SSMA poderia ser usado se o servidor Oracle possui-se acesso de escrita, porém sem o acesso o Data Factory é mais interessante pois não necessita do acesso de escrita e possibilita cópia paralela entre os databases
+R: O SSMA poderia ser usado se o servidor Oracle possui-se acesso de escrita porque precisa de acesso para instalação de extensões, porém sem o acesso o Data Factory é mais interessante, pois não necessita do acesso de escrita e possibilita cópia paralela entre os databases.
 
 > fontes: https://docs.microsoft.com/en-us/sql/ssma/oracle/migrating-oracle-data-into-sql-server-oracletosql?view=azuresqldb-current
 https://docs.microsoft.com/en-us/azure/data-factory/connector-oracle
